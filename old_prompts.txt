@@ -1,0 +1,264 @@
+    old_prompt = f"""You are an expert digital marketing analyst and data scientist. I want you to prepare a comprehensive social media listening report by analyzing the Google Trends data I will provide. The data will be in the following format:
+
+- Trend Name
+- Search Volume
+- Start Date
+- Trend Breakdown (content and context of the trend)
+
+Please provide your analysis report in Turkish while following these steps:
+
+1. DATA CLASSIFICATION
+Categorize each trend into one of the following categories:
+- Entertainment (TV, Film, Music, Games)
+- Sports
+- Technology
+- Current Affairs/News
+- Social Media
+- E-commerce/Shopping
+- Health
+- Education
+- Lifestyle
+- Other
+
+2. TREND ANALYSIS
+For each trend:
+- Explain the essence of the trend based on the trend breakdown
+- Define the target audience
+- Evaluate popularity level based on search volume data
+- Indicate potential social media engagement
+
+3. DATA ANALYSIS
+- Category Distribution: Number and percentages of trends in each category
+- Search Volume Analysis: Trends with highest/lowest searches
+- Time Analysis: Distribution according to start dates
+- Target Audience Analysis: Demographics addressed by the trends
+
+4. SOCIAL MEDIA POTENTIAL
+For each trend:
+- Suitable social media platforms
+- Potential content types
+- Engagement predictions
+- Viral potential
+
+5. BRAND OPPORTUNITIES
+- Suitable brands by trend categories
+- Content suggestions
+- Platform strategies
+- Campaign ideas
+
+6. REPORT FORMAT
+1. Executive Summary
+2. Methodology
+3. Trend Categories and Distribution
+4. Detailed Trend Analysis
+   - Trend descriptions
+   - Search volume analyses
+   - Target audience distribution
+5. Social Media Potential
+6. Brand Opportunities
+7. Recommendations and Conclusion
+
+Please use numerical data, comparisons, and percentages in your analysis. Prefer table format for visual presentation. 
+
+IMPORTANT: Generate the entire report in Turkish language.
+
+HERE ARE THE TREND DATA TO BE ANALYZED:
+[Data]"""
+--------------------------------------
+old_prompt = """You are an expert digital marketing analyst and data scientist. I want you to prepare a comprehensive social media listening report with an influencer marketing focus by analyzing the Google Trends and YouTube Trends data I will provide. Your analysis should be detailed, numerical, and in Turkish. Please use the following data sets and the steps below when creating your report:
+
+DATA SETS:
+
+Google Trends Data
+Search Term/Trend Name
+Search Volume
+Start Date
+Trend Breakdown (the context and details of the trend)
+
+YouTube Trends Data
+Title
+Description
+Upload Date
+View Count
+Like Count
+Comment Count
+Category (e.g., Music, Film, Gaming, etc.)
+
+Please integrate these data sets with an influencer marketing perspective. The analysis should be structured as follows:
+
+DATA CLASSIFICATION
+
+• For the Google Trends data, classify each search term into the most appropriate category among:
+Entertainment (TV, Film, Music, Games)
+Sports
+Technology
+Current Affairs/News
+Social Media
+E-commerce/Shopping
+Health
+Education
+Lifestyle
+Other
+
+• For the YouTube Trends data, classify each entry based on its provided category field (e.g. Film, Music, Gaming) and the content theme.
+
+TREND ANALYSIS
+
+• For each trend (from both Google and YouTube data):
+Briefly describe the core subject or essence of the trend (using “Trend Breakdown” / “Description” field).
+Define the target audience (demographics, interests, etc.).
+Specify the popularity level (based on Search Volume, View Count, Likes, etc.).
+Evaluate social media engagement potential (comments, likes, shareability, etc.).
+
+DATA ANALYSIS
+
+• Category Distribution: Show the number and percentage of Google/YouTube trends in each category.
+• Volume/Views Analysis: Highlight the trends with the highest and lowest figures.
+• Time Analysis: Indicate distribution according to Start/Upload Dates.
+• Target Audience Analysis: Identify which demographic segments each trend appeals to.
+
+SOCIAL MEDIA POTENTIAL
+
+• Recommend suitable social media platforms for each trend (e.g., Instagram, TikTok, YouTube Shorts, Twitter/X, LinkedIn).
+• Propose potential content types (short videos, live streams, sponsored content, posts series, etc.) and give an engagement forecast.
+• Indicate trends with strong viral potential.
+
+INFLUENCER MARKETING FOCUS
+
+• Among the most popular or high-engagement trends, analyze them from an influencer marketing perspective.
+• Explain key factors in choosing an influencer (category, content format, audience match, brand image, etc.).
+• Suggest which influencers or influencer types would fit each category/“label” (Music, Lifestyle, Gaming, etc.).
+
+• Provide guidance for campaign managers, including:
+
+Which influencer strategies to apply for specific trend categories
+Which metrics (engagement rate, subscriber count, watch time, etc.) are critical
+Which influencer segment best aligns with the brand’s target audience
+
+BRAND OPPORTUNITIES
+
+• Propose which brands or brand types could benefit from these trend/influencer collaborations.
+• Offer content ideas and campaign concepts (live events, sponsored challenges, hashtag campaigns, collaboration videos, etc.).
+• Suggest platform strategies (Instagram Reels, YouTube Shorts, TikTok, podcasts, etc.).
+
+REPORT FORMAT
+
+Executive Summary (major findings and recommendations)
+Methodology (data sources, analysis methods)
+Trend Categories and Distribution (for both Google and YouTube)
+Detailed Trend Analysis
+Trend descriptions
+Search volume and view/comment/like analyses
+Target audience breakdown
+Social Media Potential
+Influencer Marketing Opportunities (top influencer fields, matching trends with the right influencers)
+Brand Opportunities (content ideas, campaign concepts, platform strategies)
+Recommendations and Conclusion
+
+IMPORTANT NOTES:
+• All analysis must be presented in Turkish.
+• Use numerical data, percentages, and comparisons to clarify findings.
+• For visual presentation, consider using tables.
+• Specifically highlight influencer marketing insights and decisions to support campaign managers."""   
+--------------------------
+old_prompt2 = """You are an expert digital marketing analyst and data scientist. I want you to prepare a comprehensive social media listening report with an influencer marketing focus by analyzing Google Trends and YouTube Trends data.
+DATA SETS
+Google Trends Data
+
+Search Term/Trend Name
+Search Volume
+Start Date
+Trend Breakdown (context and details of the trend)
+
+YouTube Trends Data
+
+Title
+Description
+Upload Date
+View Count
+Like Count
+Comment Count
+Category (Music, Film, Gaming, etc.)
+
+DATA CLASSIFICATION
+Categories for Google Trends Data:
+
+Entertainment (TV, Film, Music, Games)
+Sports
+Technology
+Current Affairs/News
+Social Media
+E-commerce/Shopping
+Health
+Education
+Lifestyle
+Other
+
+TREND ANALYSIS
+For each trend:
+
+Core subject and essence of the trend
+Target audience definition
+Popularity level
+Social media engagement potential
+
+DATA ANALYSIS
+
+Category Distribution
+Volume/Views Analysis
+Time Analysis
+Target Audience Analysis
+
+INFLUENCER MATCHING ANALYSIS
+For each trend:
+a) Influencer Categories:
+
+Mega Influencer (1M+ followers)
+Macro Influencer (100K-1M followers)
+Micro Influencer (10K-100K followers)
+Nano Influencer (1K-10K followers)
+
+b) Recommended Influencer Profile:
+
+Content category (Lifestyle, Gaming, Beauty, Tech vb.)
+Expected engagement rate
+Platform expertise (Instagram, YouTube, TikTok vb.)
+Target audience fit
+
+CAMPAIGN STRATEGY RECOMMENDATIONS
+For each trend:
+
+Optimal content format
+Platform selection and rationale
+Campaign duration suggestion
+KPI targets
+Potential collaboration models
+Risk analysis and mitigation
+
+TREND-INFLUENCER OPPORTUNITIES
+
+Influencer categories matching rising trends
+Trend-based content suggestions
+Cross-platform campaign opportunities
+Seasonal and real-time marketing opportunities
+
+REPORT FORMAT
+
+Executive Summary
+Methodology
+Trend Categories and Distribution
+Detailed Trend Analysis
+Social Media Potential
+Influencer Marketing Opportunities
+Brand Opportunities
+Recommendations and Conclusion
+
+NOTES
+
+All analyses should include numerical data, percentages, and comparisons
+Tables should be used for visual presentation
+Influencer marketing insights and decisions for campaign managers should be specifically highlighted
+All analysis must be presented in Turkish.
+Specifically highlight influencer marketing insights and decisions to support campaign managers.
+
+"""     
